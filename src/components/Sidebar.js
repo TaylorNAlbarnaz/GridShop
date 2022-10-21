@@ -1,14 +1,8 @@
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-function Sidebar() {
+function Sidebar(props) {
   return (
     <>
       <aside>
-        <div className="aside__item">
-          <FontAwesomeIcon icon={faCircle} />
-          <span>Periféricos</span>
-        </div>
+        {props.children}
       </aside>
     </>
   );

@@ -40,11 +40,14 @@ header span {
 }
 
 aside {
+  display: flex;
   width: 150px;
   height: 100%;
   background-color: #3F3F3F;
   color: white;
   padding-top: 20px;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .aside__item > * {
@@ -54,10 +57,17 @@ aside {
 .aside__item {
   display: flex;
   width: 100%;
-  height: 24px;
+  height: 28px;
   font-size: 12px;
   align-items: center;
   background-color: #524F4F;
+}
+
+.aside__item > p {
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
 }
 
 .aside__item > svg{

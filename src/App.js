@@ -1,11 +1,16 @@
-import {Header, Sidebar} from './components/';
+import {Header, Sidebar, SidebarItem} from './components/';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Sidebar/>
+      <Sidebar>
+        <SidebarItem name='Periféricos'/>
+        <SidebarItem name='Processadores'/>
+        <SidebarItem name='Placas de Vídeo'/>
+        <SidebarItem name='Monitores'/>
+      </Sidebar>
     </div>
   );
 }
