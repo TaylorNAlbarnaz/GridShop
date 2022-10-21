@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Header/>
       <Sidebar>
-        <SidebarItem name='Periféricos'/>
+        <SidebarItem name='Periféricos' selected/>
         <SidebarItem name='Processadores'/>
         <SidebarItem name='Placas de Vídeo'/>
         <SidebarItem name='Monitores'/>

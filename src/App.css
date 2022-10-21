@@ -43,15 +43,11 @@ aside {
   display: flex;
   width: 150px;
   height: 100%;
-  background-color: #3F3F3F;
-  color: white;
+  background-color: #333333;
+  color: #BABABA;
   padding-top: 20px;
   flex-direction: column;
   gap: 5px;
-}
-
-.aside__item > * {
-  margin-left: 10px;
 }
 
 .aside__item {
@@ -60,7 +56,12 @@ aside {
   height: 28px;
   font-size: 12px;
   align-items: center;
-  background-color: #524F4F;
+  background-color: #3F3F3F;
+  cursor: pointer;
+}
+
+.aside__item > * {
+  margin-left: 10px;
 }
 
 .aside__item > p {
