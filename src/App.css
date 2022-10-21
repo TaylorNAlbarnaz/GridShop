@@ -1,6 +1,28 @@
-.App {
+body {
   width: 100%;
   height: 100vh;
   background-color: #2B2929;
   text-align: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  background-color: #1A1A1A;
+  padding: 6px 9px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > img {
+  width: 36px;
+}
+
+header > p {
+  color: white;
+}
+
+header span {
+  color: #D31010;
 }
