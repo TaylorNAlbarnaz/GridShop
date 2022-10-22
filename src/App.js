@@ -1,4 +1,4 @@
-import {Header, Sidebar, SidebarItem, Item, Items} from './components/';
+import {Header, Sidebar, SidebarItem, Item, Items, PageHandler} from './components/';
 import './App.css';
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
             <Item/>
           </Items>
 
-          
+          <PageHandler/>
         </div>
       </section>
     </div>

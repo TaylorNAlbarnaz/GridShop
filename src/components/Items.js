@@ -1,7 +1,7 @@
 function Items(props) {
   return (
     <>
-      <div className='Items_container'>
+      <div className='Items__container'>
         {props.children}
       </div>
     </>

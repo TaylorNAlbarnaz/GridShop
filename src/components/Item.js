@@ -1,7 +1,7 @@
 function Item() {
   return (
     <>
-      <div className='Items_single'>
+      <div className='Items__single'>
         
       </div>
     </>
