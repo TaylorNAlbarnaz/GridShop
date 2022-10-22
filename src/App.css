@@ -168,10 +168,16 @@ aside {
   height: 30px;
   background-color: #4B4B4B;
   border: 0;
+  transition: 0.4s;
   cursor: pointer;
 }
 
+.Page__handler > button:hover {
+  background-color: #616060;
+}
+
 .Page__counter {
+  cursor: default;
   color: #A1A1A1;
 }
 
