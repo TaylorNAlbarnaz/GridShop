@@ -29,6 +29,7 @@ header {
 
 header > img {
   width: 36px;
+  cursor: pointer;
 }
 
 header > p {
@@ -37,6 +38,10 @@ header > p {
 
 header span {
   color: #D31010;
+}
+
+header span:hover {
+  color: #ee1616
 }
 
 .AppBody {
