@@ -1,8 +1,13 @@
+import SidebarItem from "./SidebarItem";
+
 function Sidebar(props) {
   return (
     <>
       <aside>
-        {props.children}
+        <SidebarItem onClick={() => console.log("Pika")} name='Periféricos' selected/>
+        <SidebarItem name='Processadores'/>
+        <SidebarItem name='Placas de Vídeo'/>
+        <SidebarItem name='Monitores'/>
       </aside>
     </>
   );
