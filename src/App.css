@@ -98,9 +98,31 @@ aside {
 }
 
 .Items__single {
+  display: flex;
+  flex-direction: column;
   width: 230px;
   height: 250px;
   background-color: #555454;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Items__single > img {
+  margin-top: 20%;
+}
+
+.Item__info {
+  width: 100%;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  background-color: #434141;
+}
+
+.Item__installments {
+  color: #686868;
+  font-size: 0.6em;
 }
 
 .Page__handler {
