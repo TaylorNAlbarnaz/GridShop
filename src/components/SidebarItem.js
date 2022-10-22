@@ -10,6 +10,7 @@ function SidebarItem(props) {
       >
         <FontAwesomeIcon icon={faCircle} style={props.selected ? {} : {color: '#595959'}}/>
         <p>{props.name}</p>
+        <div className="aside__overlay" />
       </div>
     </>
   );

@@ -65,6 +65,21 @@ aside {
   align-items: center;
   background-color: #3F3F3F;
   cursor: pointer;
+  position: relative;
+}
+
+.aside__item:hover > .aside__overlay{
+  opacity: 0.1;
+}
+
+.aside__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0;
+  transition: 0.4s;
+  margin: 0!important;
 }
 
 .aside__item > * {
@@ -97,6 +112,15 @@ aside {
   gap: 11px;
 }
 
+.Items__single__container {
+  cursor: pointer;
+}
+
+.Items__single__container:hover > .Items__single {
+  background-color: #666565;
+  transform: scale(1.02);
+}
+
 .Items__single {
   display: flex;
   flex-direction: column;
@@ -105,7 +129,7 @@ aside {
   background-color: #555454;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  transition: 0.4s;
 }
 
 .Items__single > img {
