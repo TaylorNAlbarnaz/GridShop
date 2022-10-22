@@ -14,17 +14,9 @@ function App() {
         </Sidebar>
         <div className='Content'>
           <Items>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
+            <Item img="https://www.pngmart.com/files/16/Neon-Gaming-Keyboard-PNG-Photos.png" price="600,00"/>
+            <Item img="https://www.pngmart.com/files/16/Neon-Gaming-Keyboard-PNG-Photos.png" price="600,00"/>
+            <Item img="https://www.pngmart.com/files/16/Neon-Gaming-Keyboard-PNG-Photos.png" price="600,00"/>
           </Items>
 
           <PageHandler/>

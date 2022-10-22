@@ -112,13 +112,15 @@ aside {
   display: grid;
   width: 100%;
   height: fit-content;
+  min-height: 547px;
   padding: 18px;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: 230px 230px 230px 230px 230px;
   gap: 11px;
 }
 
 .Items__single__container {
   cursor: pointer;
+  width: fit-content;
 }
 
 .Items__single__container:hover > .Items__single {
