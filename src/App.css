@@ -59,6 +59,7 @@ aside {
   color: #BABABA;
   padding-top: 20px;
   flex-direction: column;
+  user-select: none;
   gap: 5px;
 }
 
@@ -162,6 +163,7 @@ aside {
   width: 250px;
   justify-content: space-between;
   align-items: center;
+  user-select: none;
 }
 
 .Page__handler > button {
