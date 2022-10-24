@@ -1,7 +1,7 @@
 {
   "name": "gridshop",
   "version": "0.1.0",
-  "homepage": "https://taylornalbarnaz.github.io/GridShop",
+  "homepage": "GridShop",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
