@@ -11,11 +11,13 @@ function Item(props) {
   return (
     <div className='Items__single__container'>
       <div className='Items__single'>
-        <img
-          src={props.img}
-          alt='Imagem do produto'
-          width='80%'
-        />
+        <div className="img_container">
+          <img
+            src={props.img}
+            alt='Imagem do produto'
+            width='80%'
+          />
+        </div>
 
         <div className='Item__info'>
           <p className='Item__price'>R$ {props.price}</p>

@@ -10,10 +10,14 @@ function Sidebar(props) {
   }
   return (
     <aside>
-      <SidebarItem id={0} onClick={()=>changeSelected(0)} name='Periféricos' selected={current}/>
-      <SidebarItem id={1} onClick={()=>changeSelected(1)} name='Processadores' selected={current}/>
-      <SidebarItem id={2} onClick={()=>changeSelected(2)} name='Placas de Vídeo' selected={current}/>
-      <SidebarItem id={3} onClick={()=>changeSelected(3)} name='Monitores' selected={current}/>
+      <SidebarItem id={0} onClick={()=>changeSelected(0)} name='Processador' selected={current}/>
+      <SidebarItem id={1} onClick={()=>changeSelected(1)} name='Placa de Vídeo' selected={current}/>
+      <SidebarItem id={2} onClick={()=>changeSelected(2)} name='Placa Mãe' selected={current}/>
+      <SidebarItem id={3} onClick={()=>changeSelected(3)} name='Memória' selected={current}/>
+      <SidebarItem id={4} onClick={()=>changeSelected(4)} name='Disco Rígido' selected={current}/>
+      <SidebarItem id={5} onClick={()=>changeSelected(5)} name='Fonte' selected={current}/>
+      <SidebarItem id={6} onClick={()=>changeSelected(6)} name='Monitor' selected={current}/>
+      <SidebarItem id={7} onClick={()=>changeSelected(7)} name='Periféricos' selected={current}/>
     </aside>
   );
 }
