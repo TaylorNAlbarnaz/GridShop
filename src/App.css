@@ -134,7 +134,7 @@ aside {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 250px;
+  height: 34vh;
   background-color: #555454;
   justify-content: space-between;
   align-items: center;
@@ -154,8 +154,8 @@ aside {
 }
 
 .img_container > img {
-  max-width: 80%;
-  max-height: 185px;
+  width: 80%;
+  max-height: 80%;
 }
 
 .Item__info {
