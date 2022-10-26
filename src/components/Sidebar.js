@@ -1,13 +1,25 @@
+import { Perifericos1, Perifericos2, GPU1} from './item_pages';
 import { useState } from "react";
 import SidebarItem from "./SidebarItem";
 
 function Sidebar(props) {
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(7);
 
   function changeSelected(id) {
     setCurrent(id)
-    const items = document.getElementsByClassName('aside__item');
+    props.OnChangeCategory(getCategoryContent(id));
+    console.log(getCategoryContent(id))
   }
+
+  function getCategoryContent(id) {
+    switch (id) {
+      case 1:
+        return [<GPU1/>];
+      default:
+          return [<Perifericos1/>, <Perifericos2/>];
+    }
+  }
+
   return (
     <aside>
       <SidebarItem id={0} onClick={()=>changeSelected(0)} name='Processador' selected={current}/>
