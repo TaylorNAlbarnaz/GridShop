@@ -210,6 +210,17 @@ aside {
   color: white;
 }
 
+@media (max-width: 900px)
+{
+  .Items__single__container {
+    width: calc(50% - 10px);
+  }
+
+  .Items__single {
+    height: 30vh;
+  }
+}
+
 @media (max-width: 600px)
 {
   .Items__single__container {
@@ -219,16 +230,13 @@ aside {
   .Items__single {
     height: 30vh;
   }
-}
 
-@media (max-width: 900px)
-{
-  .Items__single__container {
-    width: calc(50% - 10px);
+  aside {
+    width: 120px;
   }
 
-  .Items__single {
-    height: 30vh;
+  .Content {
+    margin-left: 120px;
   }
 }
 
