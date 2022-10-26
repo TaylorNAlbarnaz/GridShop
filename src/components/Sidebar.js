@@ -3,7 +3,7 @@ import { useState } from "react";
 import SidebarItem from "./SidebarItem";
 
 function Sidebar(props) {
-  const [current, setCurrent] = useState(7);
+  const [current, setCurrent] = useState(0);
 
   function changeSelected(id) {
     setCurrent(id)
