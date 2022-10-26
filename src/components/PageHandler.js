@@ -1,8 +1,7 @@
 import { useState } from "react";
 
 function PageHandler(props) {
-  const [page, setPage] = useState(1);
-  const maxPage = props.pageCount;
+  const [page, setPage] = useState(props.page+1);
 
   function handlePage(pg) {
     setPage(pg);
@@ -11,9 +10,9 @@ function PageHandler(props) {
 
   return (
     <div className='Page__handler'>
-      <button onClick={()=> handlePage(page > 1 ? page-1 : page)}>Anterior</button>
-      <p className="Page__counter"><span>{page}</span> de {maxPage}</p>
-      <button onClick={()=> handlePage(page < maxPage ? page+1 : page)}>Próxima</button>
+      <button onClick={props.onPrevious()}>Anterior</button>
+      <p className="Page__counter"><span>{props.page}</span> de {props.pageCount}</p>
+      <button onClick={props.onNext()}>Próxima</button>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { Perifericos1, Perifericos2, GPU1, CPU1, MOBO1, Fonte1, Disco1, Monitor1, RAM1,} from './item_pages';
+import { Perifericos1, Perifericos2, GPU1, CPU1, MOBO1, MOBO2, Fonte1, Disco1, Monitor1, RAM1,} from './item_pages';
 import { useState } from "react";
 import SidebarItem from "./SidebarItem";
 
@@ -18,7 +18,7 @@ function Sidebar(props) {
       case 1:
         return [<GPU1/>];
       case 2:
-        return [<MOBO1/>];
+        return [<MOBO1/>, <MOBO2/>];
       case 3:
         return [<RAM1/>];
       case 4:

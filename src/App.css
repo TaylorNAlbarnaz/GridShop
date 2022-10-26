@@ -148,6 +148,10 @@ aside {
   align-items: center;
 }
 
+.img_container > img {
+  max-height: 185px;
+}
+
 .Item__info {
   width: 100%;
   color: white;

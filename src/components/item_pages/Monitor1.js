@@ -3,17 +3,9 @@ import Item from '../Item'
 function Monitor1() {
   return (
     <div className='Items__container'>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/promo_headset_gamer_xtrike_gh_509_rgb_drivers_50mm_suporte_7817_1_20b81201ed72d6e376d24ea392c17d49.png" price="143,10"/>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/promo_headset_gamer_xtrike_gh_509_rgb_drivers_50mm_suporte_7817_1_20b81201ed72d6e376d24ea392c17d49.png" price="143,10"/>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/promo_headset_gamer_xtrike_gh_509_rgb_drivers_50mm_suporte_7817_1_20b81201ed72d6e376d24ea392c17d49.png" price="143,10"/>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/promo_headset_gamer_xtrike_gh_509_rgb_drivers_50mm_suporte_7817_1_20b81201ed72d6e376d24ea392c17d49.png" price="143,10"/>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/teclado_mouse_xtrike_mk_880kit_rgb_gaming_membrana_en_7489_1_2b9aa71e190e9ed437819260d0d7db09.png" price="144,90"/>
-
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/headset_gamer_xtrike_gh_709_rgb_drivers_40mm_7499_1_92b138ccf37a03c9730e49af6528c876.png" price="82,90"/>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/teclado_mouse_xtrike_mk_880kit_rgb_gaming_membrana_en_7489_1_2b9aa71e190e9ed437819260d0d7db09.png" price="144,90"/>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/combo_teclado_mouse_mousepad_xtrike_mk_900_rgb_gaming_membrana_en_7491_1_32feaa34fb19ee7ef31b7757de384492.png" price="123,90"/>
-      <Item img="https://images.tcdn.com.br/img/img_prod/785242/headset_gamer_xtrike_hp_311_rgb_drivers_40mm_7493_1_de8a75af482c2de27a199fd6af628ff3.png" price="72,90"/>
-      <Item img="https://www.pngmart.com/files/16/Neon-Gaming-Keyboard-PNG-Photos.png" price="160,40"/>
+      <Item img="https://images.tcdn.com.br/img/img_prod/785242/180_monitor_pctop_18_5_led_5ms_vga_hdmi_preto_mlp185hdmi_7663_1_518d442f93a32fd285e583e7835c7b47.png" price="539,10"/>
+      <Item img="https://images.tcdn.com.br/img/img_prod/785242/monitor_lg_led_21_5_widescreen_full_hd_hdmi_22mk400h_b_7655_1_4b550e941dd679fe5c7e15de28575bbe.png" price="1079,10"/>
+      <Item img="https://images.tcdn.com.br/img/img_prod/785242/180_monitor_philips_lcd_21_5_full_hd_hdmi_bordas_ultrafinas_221v8l_7651_1_78d03c9657f10dea8299bc4888e40c93.png" price="989,10"/>
     </div>
   );
 }
