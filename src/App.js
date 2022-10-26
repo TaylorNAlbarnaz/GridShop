@@ -4,22 +4,23 @@ import './App.css';
 import { useState, useEffect } from 'react';
 
 function App() {
-  //let content = [<Perifericos1/>, <Perifericos2/>]
-  let pageCount = 2;
   const [currentPage, setCurrentPage] = useState(0);
   const [content, setContent] = useState(<Perifericos1/>);
+  const [pageCount, setPageCount] = useState(0);
 
   const handleChangePage = (page) => {
     setCurrentPage(page)
   }
 
   const handleChangeCategory = (category) => {
-    const newCategory = [...category]
-    setContent(newCategory)
+    setContent(category)
+    setPageCount(category.length)
   }
 
   useEffect(()=> {
-    setContent([<Perifericos1/>, <Perifericos2/>]);
+    const defaultContent = [<Perifericos1/>, <Perifericos2/>]
+    setContent(defaultContent);
+    setPageCount(defaultContent.length)
   }, [])
 
   return (
