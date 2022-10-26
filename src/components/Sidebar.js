@@ -1,4 +1,4 @@
-import { Perifericos1, Perifericos2, GPU1} from './item_pages';
+import { Perifericos1, Perifericos2, GPU1, CPU1, MOBO1, Fonte1, Disco1, Monitor1, RAM1,} from './item_pages';
 import { useState } from "react";
 import SidebarItem from "./SidebarItem";
 
@@ -13,8 +13,22 @@ function Sidebar(props) {
 
   function getCategoryContent(id) {
     switch (id) {
+      case 0:
+        return [<CPU1/>];
       case 1:
         return [<GPU1/>];
+      case 2:
+        return [<MOBO1/>];
+      case 3:
+        return [<RAM1/>];
+      case 4:
+        return [<Disco1/>];
+      case 5:
+        return [<Fonte1/>];
+      case 6:
+        return [<Monitor1/>];
+      case 7:
+        return [<Perifericos1/>, <Perifericos2/>];
       default:
           return [<Perifericos1/>, <Perifericos2/>];
     }

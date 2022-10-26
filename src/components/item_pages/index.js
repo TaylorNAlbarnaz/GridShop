@@ -1,3 +1,9 @@
 export {default as Perifericos1} from './Perifericos1';
 export {default as Perifericos2} from './Perifericos2';
 export {default as GPU1} from './GPU1';
+export {default as CPU1} from './CPU1';
+export {default as Disco1} from './Disco1';
+export {default as Fonte1} from './Fonte1';
+export {default as MOBO1} from './MOBO1';
+export {default as Monitor1} from './Monitor1';
+export {default as RAM1} from './RAM1';
