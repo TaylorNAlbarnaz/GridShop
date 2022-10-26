@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/GridShop/static/css/main.d5fbefaf.css",
+    "main.css": "/GridShop/static/css/main.ed174530.css",
     "main.js": "/GridShop/static/js/main.46e85db6.js",
     "static/media/logo.webp": "/GridShop/static/media/logo.fc09727d15cb0c1157f4.webp",
     "index.html": "/GridShop/index.html",
-    "main.d5fbefaf.css.map": "/GridShop/static/css/main.d5fbefaf.css.map",
+    "main.ed174530.css.map": "/GridShop/static/css/main.ed174530.css.map",
     "main.46e85db6.js.map": "/GridShop/static/js/main.46e85db6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5fbefaf.css",
+    "static/css/main.ed174530.css",
     "static/js/main.46e85db6.js"
   ]
 }
