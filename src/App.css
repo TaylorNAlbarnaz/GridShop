@@ -134,7 +134,7 @@ aside {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 34vh;
+  height: 40vh;
   background-color: #555454;
   justify-content: space-between;
   align-items: center;
@@ -149,6 +149,7 @@ aside {
   display: flex;
   width: 100%;
   height: 100%;
+  min-height: 194px;
   justify-content: center;
   align-items: center;
 }
