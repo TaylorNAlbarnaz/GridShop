@@ -15,7 +15,6 @@ function Item(props) {
           <img
             src={props.img}
             alt='Imagem do produto'
-            width='80%'
           />
         </div>
 

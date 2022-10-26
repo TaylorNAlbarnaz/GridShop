@@ -110,18 +110,19 @@ aside {
 }
 
 .Items__container {
-  display: grid;
+  display: flex;
   width: 100%;
   height: fit-content;
   min-height: 547px;
   padding: 18px;
-  grid-template-columns: 230px 230px 230px 230px 230px;
-  gap: 11px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .Items__single__container {
   cursor: pointer;
-  width: fit-content;
+  width: calc(20% - 10px)
 }
 
 .Items__single__container:hover > .Items__single {
@@ -132,12 +133,16 @@ aside {
 .Items__single {
   display: flex;
   flex-direction: column;
-  width: 230px;
+  width: 100%;
   height: 250px;
   background-color: #555454;
   justify-content: space-between;
   align-items: center;
   transition: 0.4s;
+}
+
+.Items__single > img {
+  width: 80%
 }
 
 .img_container {
@@ -149,6 +154,7 @@ aside {
 }
 
 .img_container > img {
+  max-width: 80%;
   max-height: 185px;
 }
 
