@@ -57,10 +57,12 @@ aside {
   height: 100%;
   background-color: #333333;
   color: #BABABA;
-  padding-top: 20px;
+  padding-top: 48px;
   flex-direction: column;
   user-select: none;
   gap: 5px;
+  position: fixed;
+  z-index: -1;
 }
 
 .aside__item {
@@ -105,6 +107,7 @@ aside {
 }
 
 .Content {
+  margin-left: 150px;
   width: 100%;
   height: 100%;
 }
@@ -202,4 +205,26 @@ aside {
 
 .Page__counter > span {
   color: white;
+}
+
+@media (max-width: 600px)
+{
+  .Items__single__container {
+    width: calc(100% - 10px);
+  }
+
+  .Items__single {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 900px)
+{
+  .Items__single__container {
+    width: calc(50% - 10px);
+  }
+
+  .Items__single {
+    height: 30vh;
+  }
 }
