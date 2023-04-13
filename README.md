@@ -10,6 +10,6 @@
 
 2 - Abra o projeto com VS Code
 
-3 - Instale o React
+3 - Rode `npm install` para instalar todas as depêndencias
 
 4 - Inicie o projeto com `npm start`
